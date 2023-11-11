@@ -1,0 +1,61 @@
+.detail-section {
+    background-color: rgb(56, 56, 56);
+    margin-top: 65px;
+}
+
+.grid-container {
+    padding: 1em;
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1em;
+}
+
+.relMovieDiv {
+    width: 100%;
+    height: 250px;
+    color: white;
+    cursor: pointer;
+}
+
+.mGenre {
+    padding: 0 0.5em;
+}
+
+.genreTitle {
+    color: white;
+    padding-left: 1em;
+}
+
+#movieGenreDiv {
+    padding-top: 5em;
+    background-color: rgb(20, 20, 20);
+}
+
+#search-div {
+    color: white;
+    min-height: 720px;
+    background-color: rgb(22, 22, 22);
+    padding: 2em;
+    padding-top: 75px;
+}
+
+.res-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    grid-auto-rows: max-content;
+}
+
+.relImg {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.relTop {
+    color: white;
+    margin-left: 1em;
+    margin-top: 1em;
+    text-align: center;
+}

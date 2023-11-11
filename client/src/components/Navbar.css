@@ -1,0 +1,101 @@
+/* Navbar styles */
+.navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    opacity: 80%;
+}
+
+.navbar__logo img {
+    width: 100px;
+}
+
+#search:focus {
+    border: 1px solid white;
+}
+
+#basic-nav-dropdown {
+    color: white;
+}
+
+#basic-nav-dropdown:hover {
+    box-shadow: 0 0 4px grey;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    left: -7em;
+}
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link a {
+    font-size: 1.2em;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 1.2em;
+}
+
+.dropdown-item {
+    text-decoration: none !important;
+}
+
+.second-nav {
+    column-gap: 0.5em;
+    align-items: center;
+}
+
+.navbar__search input {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+}
+
+.userIcon {
+    width: 45px;
+    height: 45px;
+}
+
+.navbar__search input:focus {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tcolor {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: red;
+}
+.nav-link {
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-link.active {
+    color: red !important;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.custom-bg {
+    background-color: black !important;
+}

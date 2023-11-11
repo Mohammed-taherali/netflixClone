@@ -1,0 +1,23 @@
+#list-section {
+    padding: 2em;
+    padding-top: 80px;
+    background-color: white;
+}
+
+.grid-cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.list-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.listImg {
+    width: 50%;
+    cursor: pointer;
+}

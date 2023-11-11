@@ -1,0 +1,103 @@
+#home-section {
+    padding-top: 65px;
+    height: 100vh;
+}
+
+.alert-mess {
+    position: absolute;
+    z-index: 999;
+    top: 25%;
+    right: 5%;
+    width: 350px;
+}
+#lineh1 {
+    position: absolute;
+    left: 0;
+    height: 10px;
+    background: #5500aa;
+    animation: lineH 5s infinite linear;
+}
+
+@keyframes lineH {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+        opacity: 0;
+    }
+}
+
+.movieCont {
+    background-size: cover;
+    height: 670px;
+}
+
+.innerDiv {
+    width: 35%;
+    height: 100%;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 1em;
+}
+
+.btns-div {
+    display: flex;
+    column-gap: 1em;
+}
+
+.overview-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+}
+
+.custom-next-arrow,
+.custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5em;
+    border-radius: 50%;
+    width: 35px;
+    font-size: 1.25em;
+}
+
+.custom-next-arrow {
+    right: 10px;
+}
+
+.btns {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5em;
+    transition: all 0.5s;
+}
+
+.detail-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btns:hover,
+.custom-next-arrow:hover,
+.custom-prev-arrow:hover {
+    background-color: white;
+    color: black;
+}
