@@ -2,32 +2,44 @@
 
 ---
 
-[Video Demo](#)
+[Video Demo(coming soon)](#)
 
 ## Table of contents
 
-| Sr. | Title                                                  |
-| --- | ------------------------------------------------------ |
-| 1.  | [Screenshots](#1-screenshots)                          |
-| 2.  | [Seting Up MongoDB atlas](#2-setting-up-mongodb-atlas) |
-| 3.  | [Setting Up TMDB API](#3-setting-up-tmdb-api)          |
-| 4.  | [Clone the repository](#4-clone-the-repository)        |
+| Sr. | Title                                                      |
+| --- | ---------------------------------------------------------- |
+| 1.  | [Screenshots](#1-screenshots)                              |
+| 2.  | [Setting Up MongoDB atlas](#2-setting-up-mongodb-atlas)    |
+| 3.  | [Setting Up TMDB API](#3-setting-up-tmdb-api)              |
+| 4.  | [Clone the repository](#4-clone-the-repository)            |
+| 5.  | [Execute the `setup.js` file](#5-execute-the-setupjs-file) |
+| 6.  | [Run the application](#6-run-the-application)              |
 
-## 1. Screenshots
-
----
-
-### Sign Up Page
-
-### Login Page
-
-### Home Page
-
-### Movie Page
+## 1. Screenshots 👀
 
 ---
 
-## 2. Seting Up MongoDB Atlas
+### Sign Up Page 🎉
+
+![Sign up](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/signup.png)
+
+### Login Page 🎊
+
+![Login page](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/login.png)
+
+### Home Page 🏠
+
+![Home page](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/home%20page.png)
+![Home page 2](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/home%202.png)
+
+### Movie Page 📽
+
+![Movie page](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/movie%201.png)
+![Related movies](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/movie%202.png)
+
+---
+
+## 2. Setting Up MongoDB Atlas
 
 -   Follow these steps to easily create your mongodb atlas account: [Getting started with mongodb](https://www.mongodb.com/docs/atlas/getting-started/)
 -   Create a free cluster named 'netflixClone': [deploying a free cluster](https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/) [make sure the cluster name is exactly 'netflixClone']
