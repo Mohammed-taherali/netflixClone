@@ -8,12 +8,13 @@
 
 | Sr. | Title                                                      |
 | --- | ---------------------------------------------------------- |
-| 1.  | [Screenshots](#1-screenshots)                              |
+| 1.  | [Screenshots](#1-screenshots-👀)                           |
 | 2.  | [Setting Up MongoDB atlas](#2-setting-up-mongodb-atlas)    |
 | 3.  | [Setting Up TMDB API](#3-setting-up-tmdb-api)              |
 | 4.  | [Clone the repository](#4-clone-the-repository)            |
-| 5.  | [Execute the `setup.js` file](#5-execute-the-setupjs-file) |
-| 6.  | [Run the application](#6-run-the-application)              |
+| 5.  | [Install the dependencies](#5-Install-the-dependencies)    |
+| 6.  | [Execute the `setup.js` file](#6-execute-the-setupjs-file) |
+| 7.  | [Run the application](#7-run-the-application)              |
 
 ## 1. Screenshots 👀
 
@@ -30,11 +31,13 @@
 ### Home Page 🏠
 
 ![Home page](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/home%20page.png)
+
 ![Home page 2](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/home%202.png)
 
 ### Movie Page 📽
 
 ![Movie page](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/movie%201.png)
+
 ![Related movies](https://github.com/Mohammed-taherali/netflixClone/blob/master/client/src/assets/movie%202.png)
 
 ---
@@ -51,6 +54,7 @@ DON'T FORGET TO ADD `0.0.0.0/0` TO THE _IP ACCESS_ LIST IN THE _NETWORK ACCESS_ 
 ## 3. Setting Up TMDB API
 
 Follow this tutorial to create tmdb api: [setup TMDB API](https://www.educative.io/courses/movie-database-api-python/set-up-the-credentials)
+
 Copy this `api key` and paste it in [setup.js](#4-clone-the-repository) file
 
 ---
@@ -63,14 +67,25 @@ git clone https://github.com/Mohammed-taherali/netflixClone.git
 
 ---
 
-## 5. Execute the `setup.js` file
+## 5. Install the dependencies
+
+-   Navigate to `server` directory
+-   `cd .\server`
+-   run `npm install`
+-   Then navigate back to the root directory
+-   `cd ..`
+-   Navigate to `client` directory
+-   `cd .\client`
+-   run `npm install`
+
+## 6. Execute the `setup.js` file
 
 -   open the setup.js file
-    replace the placeholder texts for `<mongodb_uri>` and `<tmdb_api_key>` acquired from steps 2 and 3
+-   replace the placeholder texts for `<mongodb_uri>` and `<tmdb_api_key>` acquired from steps 2 and 3
 -   save the file
 -   run the `node setup.js` command
 
-## 6. Run the application
+## 7. Run the application
 
 -   Open two seperate terminals in vscode
 -   #### Start the frontend
