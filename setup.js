@@ -1,5 +1,6 @@
 const fs = require("fs");
 const crypto = require("crypto");
+const { createDB } = require("./server/createTable");
 
 async function generateToken() {
     const buffer = await new Promise((resolve, reject) => {
@@ -28,6 +29,7 @@ async function setup() {
 
     // Paste your MongoDB atlas uri here
     const mongodb_uri = "<mongodb_uri>";
+
     const clientPath = "./client/.env";
     const serverPath = "./server/.env";
 
@@ -49,6 +51,7 @@ TMDB_BASE_URL=https://api.themoviedb.org/3
 `;
     await writeEnv(clientPath, clientEnvContent);
     await writeEnv(serverPath, serverEnvContent);
+    await createDB(mongodb_uri);
 }
 
 setup()
